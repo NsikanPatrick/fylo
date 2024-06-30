@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .container{
-    @apply min-h-screen min-w-full flex items-center pl-5;
+    @apply min-h-screen min-w-full flex items-center p-5;
 }
 
 .navigation.sticky{
