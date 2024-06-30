@@ -37,9 +37,9 @@
 }
 
 .cta{
-    @apply bg-dark-500 text-white text-base px-6 py-2 rounded-full;
+    @apply bg-dark-500 text-dark-800 text-base px-6 py-2 rounded-full;
 }
 
 .cta-hover{
-    @apply hover:text-dark-500 hover:bg-white duration-500
+    @apply hover:text-dark-500 hover:bg-slate-300 duration-500
 }

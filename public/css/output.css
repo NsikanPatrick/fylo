@@ -1095,7 +1095,7 @@ body.disabledScroll {
   font-size: 1rem;
   line-height: 1.5rem;
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: hsl(0 0% 100% / var(--tw-text-opacity));
 }
 
 .cta-hover {
@@ -1104,7 +1104,7 @@ body.disabledScroll {
 
 .cta-hover:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: hsl(198 60% 50% / var(--tw-text-opacity));
 }
