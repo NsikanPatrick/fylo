@@ -1,0 +1,24 @@
+{
+  "name": "fylo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "tailwindcss -i ./src/input.css -o ./public/css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NsikanPatrick/fylo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NsikanPatrick/fylo/issues"
+  },
+  "homepage": "https://github.com/NsikanPatrick/fylo#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}

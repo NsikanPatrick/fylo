@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    @apply min-h-screen min-w-full flex items-center pl-5;
+}
+
+.navigation.sticky{
+    /* background-image: linear-gradient(-10deg, #000 0%, #343a40 120% ); */
+    @apply h-24 flex p-5 bg-dark-200 transition-all ease-in duration-500 
+    shadow md:flex justify-between items-center gap-10 fixed right-0 left-0 top-0 z-10
+    border-b border-white
+    /* padding: 23px 0; */
+}
+
+.menu-items{
+    @apply gap-10 z-[-1] bg-dark-300 md:bg-transparent bg-opacity-100 md:z-auto md:static absolute w-full md:py-4 
+     pb-4 pt-5 mt-4 md:w-auto md:h-auto transition-all ease-in duration-500 h-screen overflow-y-auto
+     md:mt-0 top-20 text-center left-[-100%] md:inline-flex
+} 
+
+.menu-items.open { /* Add styles when the menu is open */
+    left: 0; /* Slide in from the left, hidden by default on mobile with  left-[-100%]*/
+  }
+
+  body.disabledScroll {
+    overflow: hidden;
+  }
+
+.list-item{
+    @apply mx-4 my-6 md:my-0 md:mx-0;
+}
+
+.link{
+    @apply text-xl lg:text-sm hover:text-dark-400 duration-500;
+}
+
+.cta{
+    @apply bg-dark-500 text-white text-base px-6 py-2 rounded-full;
+}
+
+.cta-hover{
+    @apply hover:text-dark-500 hover:bg-white duration-500
+}
